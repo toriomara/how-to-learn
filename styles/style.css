@@ -1,7 +1,7 @@
 .page {
+  display: block;
   min-width: 1100px;
   max-width: 1600px;
-  display: block;
   margin: 0 auto;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
@@ -21,8 +21,8 @@
 }
 
 .logo {
-  width: 228px;
   height: 32px;
+  width: 228px;
 }
 
 .logo_place_header {
@@ -33,8 +33,8 @@
 
 .header__title {
   display: flex;
-  align-items: center;
   width: 730px;
+  align-items: center;
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
@@ -53,8 +53,8 @@
 
 .header__main-illustration {
   position: absolute;
-  width: 765px;
   height: 608px;
+  width: 765px;
   right: 0;
   bottom: 0;
   z-index: 2;
@@ -74,10 +74,10 @@
 /* Description */
 
 .description {
-  margin: 100px auto;
   display: flex;
   flex-direction: column;
   width: 80%;
+  margin: 100px auto;
 }
 
 .two-columns {
@@ -87,8 +87,8 @@
 
 .two-columns__brief {
   width: 175px;
-  line-height: 1.2;
   margin-top: 0;
+  line-height: 1.2;
   font-size: 18px;
   font-weight: 500;
   color: #2f80ed;
@@ -122,6 +122,7 @@
 .digits {
   display: flex;
   flex-direction: column;
+  margin: 100px auto;
 }
 
 .section-title {
@@ -137,8 +138,8 @@
 .section-subtitle {
   display: flex;
   justify-content: center;
-  margin: 0 auto;
   width: 60%;
+  margin: 0 auto;
   line-height: 34px;
   font-size: 24px;
   font-weight: 500;
@@ -158,17 +159,17 @@
 }
 
 .table__heading {
-  line-height: 1.15;
   margin: 0;
+  line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
 }
 
 .table__text {
+  margin-top: 20px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: 500;
-  margin-top: 20px;
 }
 
 .table__text:last-child {
@@ -193,9 +194,8 @@
 .feynman__title {
   display: flex;
   width: 648px;
-  align-items: center;
-  margin: 100px auto 0;
   text-align: center;
+  margin: 100px auto 0;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
@@ -219,11 +219,13 @@
   font-weight: 500;
 }
 
+/* kaufman */
+
 .kaufman {
-  padding-top: 90px;
-  padding-bottom: 90px;
   position: relative;
   overflow: hidden;
+  padding-top: 90px;
+  padding-bottom: 90px;
   margin: auto;
   background-color: #1f1f1f;
 }
@@ -272,12 +274,13 @@
   color: #2f80ed;
 }
 
+/* Footer */
+
 .footer {
   position: relative;
   display: flex;
   justify-content: center;
   min-height: 350px;
-
   padding-top: 60px;
   padding-bottom: 40px;
   background-color: #1f1f1f;
