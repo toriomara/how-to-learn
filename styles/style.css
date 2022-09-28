@@ -213,8 +213,9 @@ p {
 
 .feynman__subtitle {
   position: relative;
+  display: flex;
+  justify-content: center;
   margin: 70px 0;
-  padding: 70px auto 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: 400;
