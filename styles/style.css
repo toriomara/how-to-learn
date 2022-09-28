@@ -1,3 +1,14 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .page {
   display: block;
   min-width: 1100px;
@@ -40,7 +51,6 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-  z-index: 2;
 }
 
 .header__subtitle {
@@ -59,6 +69,7 @@
   width: 765px;
   right: 0;
   bottom: 0;
+  z-index: -1;
 }
 
 .header__square-pic {
@@ -68,7 +79,7 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-  z-index: -1;
+  z-index: -2;
 }
 
 /* Description */
@@ -107,7 +118,7 @@
   margin-bottom: 30px;
 }
 
-.two-columns__p-text:last-child {
+.two-columns__paragraph:last-child {
   margin-bottom: 0;
 }
 
@@ -202,7 +213,7 @@
 
 .feynman__subtitle {
   position: relative;
-  margin: 70px auto 0;
+  margin: 70px 0;
   padding: 70px auto 0;
   line-height: 51px;
   font-size: 36px;
