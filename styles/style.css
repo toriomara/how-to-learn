@@ -1,4 +1,4 @@
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -7,7 +7,7 @@ h6,
 p {
   margin: 0;
   padding: 0;
-}
+} */
 
 .page {
   display: block;
@@ -47,7 +47,8 @@ p {
   align-self: center;
   max-width: 730px;
   width: 100%;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
+  padding: 0;
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
@@ -58,6 +59,8 @@ p {
   width: 388px;
   left: 64px;
   bottom: 30px;
+  margin: 0;
+  padding: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: 400;
@@ -103,7 +106,8 @@ p {
 
 .two-columns__brief {
   width: 175px;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: 400;
@@ -119,8 +123,8 @@ p {
 }
 
 .two-columns__paragraph {
-  margin-top: 0;
   margin-bottom: 30px;
+  margin: 0 0 30px 0;
 }
 
 .two-columns__paragraph:last-child {
@@ -146,6 +150,7 @@ p {
   justify-content: center;
   width: 60%;
   margin: 0 auto 20px;
+  padding: 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -156,6 +161,7 @@ p {
   justify-content: center;
   width: 60%;
   margin: 0 auto;
+  padding: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: 400;
@@ -177,22 +183,24 @@ p {
 }
 
 .table__heading {
-  margin: 0;
   line-height: 1.15;
+  margin: 0;
+  padding: 0;
   font-size: 24px;
   font-weight: 600;
 }
 
 .table__text {
-  margin-top: 20px;
+  margin: 20px 0 0 0;
+  padding: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: 400;
 }
 
-.table__text:last-child {
+/* .table__text:last-child {
   margin-bottom: 0;
-}
+} */
 
 /* Feynman */
 
@@ -211,6 +219,7 @@ p {
   width: 648px;
   text-align: center;
   margin: 100px auto 0;
+  padding: 0;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
@@ -221,6 +230,7 @@ p {
   display: flex;
   justify-content: center;
   margin: 70px 0 0;
+  padding: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: 400;
@@ -253,6 +263,7 @@ p {
 .section-title_theme_dark {
   color: white;
   margin: 90px auto 20px;
+  padding: 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -276,7 +287,6 @@ p {
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 0;
   margin-top: 80px;
   z-index: 2;
 }
@@ -338,14 +348,16 @@ p {
 }
 
 .footer__author {
-  padding: 18px 0 18px;
+  padding: 0;
+  margin: 18px 0 18px;
   line-height: 25px;
   font-size: 18px;
   font-weight: 400;
 }
 
 .footer__column-heading {
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
@@ -353,11 +365,13 @@ p {
 
 .footer__column-links {
   list-style: none;
-  padding-left: 0;
   margin: 20px 0 16px;
+  padding: 0;
 }
 
 .footer__column-link {
+  margin: 0;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
