@@ -1,15 +1,8 @@
 # How to learn (Yandex.Practicum's project)
-Alt-H1
-------
-*My first project*
-**My second project**
-~~Not my first project~~
+**Это мой первый проект по вёрстке на Яндекс.Практикум**
 
-## My project's list:
-1. WP site/
-2. Site without CMS
+## Stack:
+1. HTML
+2. CSS
 
-```javascript
-const simple = "Я просто строка!";
-console.log(simple);
-``` 
+*В планах сделать проект более интерактивным: добавить больше hover-эффектов и, возможно, анимации*
