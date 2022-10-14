@@ -1,21 +1,21 @@
 /* COMMON */
 @import url(../vendor/normalize.css);
-/* @import url(../blocks/root/root.css); */
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/section/__title/section__title.css);
-@import url(../blocks/section/__title/_theme/section-title_theme_dark.css);
-@import url(../blocks/section/__subtitle/section__subtitle.css);
-@import url(../blocks/section/__subtitle/_theme/section-subtitle_theme_dark.css);
+@import url(../blocks/section-title/section__title.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/section-subtitle/section__subtitle.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 /* HEADER */
 @import url(../blocks/header/header.css);
-@import url(../blocks/logo/_place_header/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
+@import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/rotation/rotation.css);
 /* DESCRIPTION */
 @import url(../blocks/description/description.css);
@@ -73,9 +73,9 @@
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/logo/_place_footer/logo_place_footer.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
-@import url(../blocks/footer/__column_content_copyright/footer__column_content_copyright.css);
+@import url(../blocks/footer/__column_content/__column_content_copyright/footer__column_content_copyright.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
